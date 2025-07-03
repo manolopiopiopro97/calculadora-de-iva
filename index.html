@@ -13,6 +13,16 @@
       padding: 2rem;
     }
 
+    /* Estilos para la imagen del pollo */
+    .chicken-logo {
+      position: absolute; /* Permite posicionar la imagen con respecto al body o un contenedor */
+      top: 20px; /* Distancia desde la parte superior */
+      left: 20px; /* Distancia desde la izquierda */
+      width: 80px; /* Ancho de la imagen, ajusta según necesites */
+      height: auto; /* Mantiene la proporción de la imagen */
+      z-index: 1000; /* Asegura que la imagen esté por encima de otros elementos */
+    }
+
     h1, h2 {
       text-align: center;
       color: #273c75;
@@ -66,6 +76,8 @@
   </style>
 </head>
 <body>
+  <img src="cartoon-character-chicken-T65BN4.jpg" alt="Logo de pollo" class="chicken-logo">
+  
   <h1>🧮 Calculadora de IVA</h1>
 
   <div class="section">
@@ -127,5 +139,20 @@
       }
     }
   </script>
+
+  <div style="margin-top: 2rem; text-align: center;">
+    <button style="
+      background-color: #3a6099fb;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    " onclick="window.location.href='/*poner url*/'">
+      🧾 Ir a Calculadora de IVA
+    </button>
+  </div>
+
 </body>
 </html>
